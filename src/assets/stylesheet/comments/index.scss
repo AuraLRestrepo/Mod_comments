@@ -1,0 +1,31 @@
+.header__container_post{
+    margin: 24px;
+    padding: 16px;
+    width: 520px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid $borders;
+    border-radius: $min_border;
+    -webkit-border-radius: $min_border;
+    -moz-border-radius: $min_border;
+    -ms-border-radius: $min_border;
+    -o-border-radius: $min_border;
+}
+
+.header_user_current_post {
+    width: 60px;
+    height: 60px;
+    border-radius: $max_border;
+    -webkit-border-radius: $max_border;
+    -moz-border-radius: $max_border;
+    -ms-border-radius: $max_border;
+    -o-border-radius: $max_border;
+    background: $back_circles;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.current_user{
+    color: $white;
+}
